@@ -1,5 +1,7 @@
 # 💽INE5202 - Cálculo Numérico em Computadores
 
+> "Religião para mim é ciência. E Ciência é religião" - **Ada Lovelace**
+
 ## ***Repositório da Disciplina INE5202 - Cálculo Numérico em Computadores***
 
 **Curso**: Engenharia Eletrônica - Universidade Federal de Santa Catarina (UFSC), Florianópolis, SC, Brasil
