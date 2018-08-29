@@ -1,15 +1,19 @@
 function root = root(a,b)
 
+function f = f(x)
+    f = exp(x)*sin(x)-1;
+end
+
 k = 0;
 erro = 10^-5;
-fa = exp(a)*sin(a)-1;
-fb = exp(b)*sin(b)-1;
+fa = f(a);
+fb = f(b);
 fxm = 10;
 
 while(abs(fxm) > erro)
     k = k + 1;
     xm = (a+b)/2;
-    fxm = exp(xm)*sin(xm)-1;
+    fxm = f(xm);
     if (fa*fxm<0)
         b = xm;
     else
@@ -18,3 +22,4 @@ while(abs(fxm) > erro)
     end
 end
 root = xm;
+end
