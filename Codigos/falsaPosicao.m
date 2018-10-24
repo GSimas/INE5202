@@ -1,2 +1,2 @@
-function f = falsaPosicao(a,b)
+function f = falsaPosicao(a,b);
 
